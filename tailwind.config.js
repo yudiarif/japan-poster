@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       fontFamily: {
         cabinet: ["cabinet", "sans-serif"],
+        cabinetBold: ["cabinetBold", "sans-serif"],
         hog: ["hog", "sans-serif"],
       },
       backgroundImage: {

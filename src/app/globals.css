@@ -7,8 +7,12 @@
   src: url("/CabinetGrotesk-Black.otf");
 }
 @font-face {
+  font-family: "cabinetBold";
+  src: url("/CabinetGrotesk-Bold.otf");
+}
+@font-face {
   font-family: "hog";
-  src: url("/HouseOfNguyen.ttf");
+  src: url("/hon.ttf");
 }
 
 * {
