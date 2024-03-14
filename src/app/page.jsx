@@ -24,21 +24,21 @@ const page = () => {
           <h1 className="font-cabinet text-lg">{title.toUpperCase()}</h1>
         </div>
         {/* desktop menu */}
-        <div className="overflow-hidden absolute top-[13%] left-0 hidden lg:block">
+        <div className="overflow-hidden absolute top-[13%] left-0 hidden lg:block z-50">
           {menu.map((item, index) => (
-            <h1 key={index} className="menu-item font-cabinet text-lg pb-5">
+            <p key={index} className="menu-item font-cabinet text-lg pb-5 cursor-pointer text-black hover:text-black/60">
               {item.toUpperCase()}
-            </h1>
+            </p>
           ))}
         </div>
         {/* end desktop menu */}
 
         {/* mobile menu  */}
-        <div className="overflow-hidden absolute w-52 h-12 bottom-4 rounded-full backdrop-blur-sm flex flex-row justify-center items-center gap-2 lg:hidden">
+        <div className="overflow-hidden absolute w-52 h-12 bottom-4 rounded-full backdrop-blur-sm flex flex-row justify-center items-center gap-2 z-50 lg:hidden">
           {menu.map((item, index) => (
-            <h1 key={index} className="font-cabinetBold text-sm text-white">
+            <p key={index} className="font-cabinetBold text-sm text-white/75 hover:text-white cursor-pointer">
               {item.toUpperCase()}
-            </h1>
+            </p>
           ))}
         </div>
         {/* end mobile menu */}
@@ -76,7 +76,7 @@ const page = () => {
           </svg>
         </div>
         {/* END Border */}
-        <div className="flex flex-col items-center relative w-screen h-screen  lg:h-[750px] overflow-hidden">
+        <div className="flex flex-col items-center relative w-screen h-screen lg:w-[1280px]  lg:h-[750px] overflow-hidden">
           <motion.div
             initial={{
               y: 100,
@@ -126,7 +126,14 @@ const page = () => {
               }}
               className="overflow-hidden relative"
             >
-              <h3 className="font-hog leading-none text-[2rem] font-medium random-text">コンピュータ</h3>
+              <div className="font-hog leading-none text-[2rem] font-medium random-text flex flex-row">
+                <span className="border-2 border-black border-b-0">コ</span>
+                <span className="border-2 border-black border-b-0">ン</span>
+                <span className="border-2 border-black border-b-0">ピ</span>
+                <span className="border-2 border-black border-b-0">ュ</span>
+                <span className="border-2 border-black border-b-0">ー</span>
+                <span className="border-2 border-black border-b-1">タ</span>
+              </div>
             </motion.div>
           </motion.div>
           <motion.div
@@ -154,7 +161,15 @@ const page = () => {
               }}
               className="overflow-hidden relative"
             >
-              <h3 className="font-hog leading-none text-[2rem] font-medium random-text">インターネット</h3>
+              <div className="font-hog leading-none text-[2rem] font-medium random-text flex flex-row">
+                <span className="border-2 border-black border-b-0">イ</span>
+                <span className="border-2 border-black border-b-0">ン</span>
+                <span className="border-2 border-black border-b-0">タ</span>
+                <span className="border-2 border-black border-b-0">ー</span>
+                <span className="border-2 border-black border-b-0">ネ</span>
+                <span className="border-2 border-black border-b-0">ッ</span>
+                <span className="border-2 border-black border-b-1">ト</span>
+              </div>
             </motion.div>
           </motion.div>
           <div className="absolute top-[16%] overflow-hidden h-[660px] flex justify-end items-end">

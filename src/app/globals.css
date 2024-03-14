@@ -35,6 +35,7 @@
 
 .menu-item {
   writing-mode: vertical-lr;
+  cursor: pointer;
 }
 .random-text {
   writing-mode: vertical-lr;
