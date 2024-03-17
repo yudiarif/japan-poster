@@ -181,6 +181,7 @@ const page = () => {
                 scale: 1,
                 transition: {
                   duration: 1,
+                  delay: 1,
                   ease: [0.33, 1, 0.68, 1],
                 },
               }}
@@ -202,7 +203,7 @@ const page = () => {
                   <Image src="/cloud3.png" alt="cloud" width={500} height={500} />
                 </motion.div>
               </div>
-              <div className="-z-40">
+              <div className="">
                 <Image src="/seifuku_edit.png" alt="seifuku_girl" width={420} height={420} />
               </div>
             </motion.div>
