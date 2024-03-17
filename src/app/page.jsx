@@ -204,7 +204,7 @@ const page = () => {
                 </motion.div>
               </div>
               <div className="">
-                <Image src="/seifuku_edit.png" alt="seifuku_girl" width={420} height={420} />
+                <Image src="/seifuku_edit.png" alt="seifuku_girl" width={420} height={550} />
               </div>
             </motion.div>
           </div>
