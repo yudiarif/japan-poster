@@ -93,7 +93,7 @@ const page = () => {
             className="absolute top-[20%] lg:top-[12%]"
           >
             <div className="overflow-hidden relative">
-              <h1 className="font-hog leading-none text-[4rem] lg:text-[14rem] font-medium relative -z-40 ">Seifuku GIrl</h1>
+              <h1 className="font-hog leading-none text-[4rem] md:text-[7rem] lg:text-[14rem] font-medium relative -z-40 ">Seifuku GIrl</h1>
               <div className="overflow-hidden absolute top-[80%] w-full -z-50">
                 <svg height="3" width="100%" xmlns="http://www.w3.org/2000/svg">
                   <line x1="0" y1="0" x2="100%" y2="0" style={{ stroke: "black", strokeWidth: "5" }} />
