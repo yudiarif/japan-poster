@@ -4,7 +4,7 @@ import React from "react";
 import { motion } from "framer-motion";
 
 const page = () => {
-  const title = "ydarff present";
+  const title = "doomerdev present";
   const menu = ["Home", "Work", "About"];
   return (
     <div className="">
@@ -75,7 +75,7 @@ const page = () => {
             <line x1="0" y1="0" x2="100%" y2="0" style={{ stroke: "black", strokeWidth: "2" }} />
           </svg>
         </div>
-        {/* END Border */}
+        {/* END Border  */}
         <div className="flex flex-col items-center relative w-screen h-screen lg:w-[1280px]  lg:h-[750px] overflow-hidden">
           <motion.div
             initial={{
